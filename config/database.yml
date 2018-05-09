@@ -48,7 +48,5 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
+  adapter: postgresql
   database: xx1_production
-  username: xx1 
-  password: <%= ENV['IMDB_DATABASE_PASSWORD'] %>
