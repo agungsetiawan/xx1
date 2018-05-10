@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'mysql2', '>= 0.3.18', '< 0.5', group: :development
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
 end
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
