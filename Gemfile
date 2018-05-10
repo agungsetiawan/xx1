@@ -22,6 +22,7 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 4.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'paperclip', '~> 5.2'
+gem 'rails_12factor'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
